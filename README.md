@@ -10,6 +10,10 @@
 - **Microsoft Excel** – For initial data preparation and formatting
 
 
+## 🎯 Objective
+To analyze pizza sales data using Power BI and PostgreSQL in order to uncover patterns in revenue, product performance, and customer preferences. The goal is to provide insights that can help improve business decisions related to sales, marketing, and inventory.
+
+
 ## 🌟 Key Features / Highlights
 
 - 📅 Analysis covers the period: **Jan 1, 2015 – Dec 31, 2015**
@@ -79,4 +83,11 @@
 ![Pizza Sales Dashboard](https://github.com/VirajAdake210706/Pizza-Sales-Project/blob/main/Snapshot%20Of%20Pizza%20Sales%20Report.png)
 
 
+## 🚀 Future Scope
+- Integrate customer-level analysis
+- Add delivery time & order channel insights
+- Deploy dashboard to cloud for public viewing
 
+## ⭐ GitHub Repo
+
+> [Pizza Sales Analysis GitHub Repo]()
