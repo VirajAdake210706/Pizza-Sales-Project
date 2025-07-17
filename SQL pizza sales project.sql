@@ -15,7 +15,7 @@ CREATE TABLE pizza_sales (
 DROP table pizza_sales;
 SELECT *FROM pizza_sales;
 
---KPI's query.
+--KPI's queries.
 --Q1.Total revenue generated.
 SELECT SUM(total_price) AS Total_Revenue
 FROM pizza_sales;
@@ -36,7 +36,7 @@ FROM pizza_sales;
 SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2)) AS Avg_Pizzas_Per_order
 FROM pizza_sales;
 
---CHARTS query.
+--CHARTS queries.
 --Q1.Total sales according to days of week.
 SELECT TO_CHAR(order_date,'Day') AS order_day,COUNT(DISTINCT order_id) AS total_orders
 FROM pizza_sales
@@ -54,23 +54,9 @@ FROM pizza_sales
 GROUP BY pizza_category
 ORDER BY PCT DESC;
 
-SELECT 
-    pizza_category, 
-    SUM(total_price) AS Total_Sales, SUM(total_price) *100 / (Select SUM(total_price) FROM pizza_sales WHERE EXTRACT(MONTH FROM order_date) = 7) AS PCT
-FROM pizza_sales
-WHERE EXTRACT(MONTH FROM order_date) = 7
-GROUP BY pizza_category
-ORDER BY total_sales DESC;
-
 --Q4.Percentage of sales by pizza size.
 SELECT pizza_size,SUM(total_price) AS total_sales, CAST((SUM(total_price) * 100) / (SELECT SUM(total_price) FROM pizza_sales) AS DECIMAL(10,2)) AS PCT
 FROM pizza_sales
-GROUP BY pizza_size
-ORDER BY PCT DESC;
-
-SELECT pizza_size,SUM(total_price) AS total_sales, CAST(SUM(total_price) *100 / (Select SUM(total_price) FROM pizza_sales WHERE EXTRACT(QUARTER FROM order_date)=1) AS DECIMAL(10,2)) AS PCT
-FROM pizza_sales
-WHERE EXTRACT(QUARTER FROM order_date)=1
 GROUP BY pizza_size
 ORDER BY PCT DESC;
 
