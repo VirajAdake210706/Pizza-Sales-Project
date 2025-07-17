@@ -5,7 +5,7 @@
 
 ## 🧰 Tools Used
 
-- **Power BI** – For interactive dashboard creation and visualization  
+- **Power BI** – For interactive dashboard creation, using DAX functions and visualization
 - **PostgreSQL** – For querying, analyzing, and aggregating data  
 - **Microsoft Excel** – For initial data preparation and formatting
 
@@ -76,8 +76,7 @@
 
 ## 📷 Screenshot of the Dashboard
 
-![Pizza Sales Dashboard]()
+![Pizza Sales Dashboard](https://github.com/VirajAdake210706/Pizza-Sales-Project/blob/main/Snapshot%20Of%20Pizza%20Sales%20Report.png)
 
 
-## 📁 Project Structure
 
