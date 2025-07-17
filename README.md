@@ -74,12 +74,9 @@
 - The Mediterranean Pizza – 912  
 - The Spinach Supreme Pizza – 912  
 
-
 ## 📷 Screenshot of the Dashboard
 
-| Overview Page | Best/Worst Sellers Page |
-|---------------|--------------------------|
-| ![Overview](https://github.com/YourUsername/YourRepoName/blob/main/Snapshot%20Of%20Pizza%20Sales%20Report.png) | ![Sellers](https://github.com/YourUsername/YourRepoName/blob/main/Snapshot%20Of%20Pizza%20Sales%20Report.png) |
+![Pizza Sales Dashboard]()
 
 
 ## 📁 Project Structure
