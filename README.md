@@ -90,4 +90,4 @@ To analyze pizza sales data using Power BI and PostgreSQL in order to uncover pa
 
 ## ⭐ GitHub Repo
 
-> [Pizza Sales Analysis GitHub Repo]()
+> [Pizza Sales Analysis GitHub Repo](https://github.com/VirajAdake210706/Pizza-Sales-Analysis-Project)
